@@ -1,29 +1,207 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shivani - Portfolio</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-  <h1>shivani vallala</h1>
-  <a href="https:/google.com" target="_blank">  
-  <img src="shivani.jpeg" alt="" width="250" height="250">
-  </a>
-  </body>
-<div>
-  <h2>My Skills</h2>
-   <p><ul><li>
-      java</li> 
-     <li> python</li>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-code"></i> shivani
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h3>Hey, I am Shivani</h3>
+        <h1>I am a web developer and passionate learner</h1>
+        <p>I am a computer science student intrested in web development'UI/UX design and creating simple and user-friendly websites.</p>
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+      </div>
+      <div class="hero-image">
+        <img src="shivani.jpeg" alt="shivani">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="expertise">
+    <div class="container">
+      <p class="sub-title">My Skills</p>
+      <h2 class="section-title">My Expertise</h2>
+      <div class="expertise-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+          <h3>Strategy & Direction</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-tag"></i></div>
+          <h3>Branding & Logo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-pen-nib"></i></div>
+          <h3>UI & UX Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Webflow Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-container">
       
-   </ul></p>
-   <h2>Education</h2>
-    <p>samskruthi college of enginering </p>
-    <h2> certification</h2>
-    <p> java full stack virtual intership</p>
-    <span> python programming</span>
- 
-  </form>
-</div>  
-</body> 
-</html>   
+      <div class="about-text">
+        <p class="sub-title">About</p>
+        <h2 class="section-title">About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+        <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio-header">
+        <div>
+          <p class="sub-title">Recent Projects</p>
+          <h2 class="section-title">My Portfolio</h2>
+        </div>
+        <a href="https://dribbble.com" target="_blank" class="btn btn-primary"><i class="fa-brands fa-dribbble"></i> Visit My Dribbble</a>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          
+          <div class="portfolio-content">
+            <h3>Ahuse</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <a href="#" class="portfolio-link">View In Dribbble <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="https://via.placeholder.com/350x220/ddd6fe/000000?text=Project+2" alt="App Dashboard Project">
+          <div class="portfolio-content">
+            <h3>App Dashboard</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <a href="#" class="portfolio-link">View In Dribbble <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="https://via.placeholder.com/350x220/fae8ff/000000?text=Project+3" alt="Easy Rent Project">
+          <div class="portfolio-content">
+            <h3>Easy Rent</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <a href="#" class="portfolio-link">View In Dribbble <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="sub-title">Get In Touch</p>
+      <h2 class="section-title">Contact me</h2>
+      <p style="color: var(--text-gray);">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      
+      <form class="contact-form" onsubmit="event.preventDefault();">
+        <div class="form-group-row">
+          <div class="form-group">
+            <label>First name</label>
+            <input type="text" placeholder="" required />
+          </div>
+          <div class="form-group">
+            <label>Last name</label>
+            <input type="text" placeholder="" required />
+          </div>
+        </div>
+        <div class="form-group-row">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="" required />
+          </div>
+          <div class="form-group">
+            <label>Phone number</label>
+            <input type="tel" placeholder="" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Choose a topic</label>
+          <select required>
+            <option value="">Select one...</option>
+            <option value="ui-ux">UI & UX Design</option>
+            <option value="webflow">Webflow Development</option>
+            <option value="branding">Branding</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Type your message..."></textarea>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms" required />
+          <label for="terms" style="font-size: 0.85rem;">I accept the terms</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">
+          <i class="fa-solid fa-code"></i> Shivani
+        </div>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Made with by shivani</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
